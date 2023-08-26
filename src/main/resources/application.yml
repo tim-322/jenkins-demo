@@ -1,1 +1,14 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.115.207.7:3306/db_demo?useSSL=false
+    username: root
+    password: ilovetimhooper
 
+
+mybatis-plus:
+#  global-config:
+#    db-config:
+#      table-prefix: tb_
